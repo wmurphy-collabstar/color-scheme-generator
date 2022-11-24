@@ -1,6 +1,6 @@
 ## Color Scheme Generator
 
-YOu can visit the website here: 
+You can visit the website here: 
 
 Quick start:
 
