@@ -1,0 +1,30 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Here will be the toggle button from light to dark-->
+        <div class="container">
+            <form id="color-scheme-form">
+                <input id="color" type="color" aria-label="Pick a color"/>
+                <select id="mode" aria-label="Pick a mode">
+                    <option name="mode" value="monochrome">Monochrome</option>
+                    <option name="mode" value="monochrome-dark">Monochrome-dark</option>
+                    <option name="mode" value="monochrome-light">Monochrome-light</option>
+                    <option name="mode" value="analogic">Analogic</option>
+                    <option name="mode" value="complement">Complement</option>
+                    <option name="mode" value="analogic-complement">Analogic-complement</option>
+                    <option name="mode" value="triad">Triad</option>
+                </select>
+                <button id="submit-btn">Get color scheme</button>
+            </form>
+            <main id="all-colors">
+                
+            </main>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
